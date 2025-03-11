@@ -1,0 +1,784 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    linkcolor=black,
+    citecolor=green,
+    urlcolor=blue
+}
+
+\usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.5in]{geometry} % Document margins
+
+% \setlength{\topmargin}{-0.8in}
+% \setlength{\textheight}{10.0in}
+% \setlength{\oddsidemargin}{-0.3in}
+% \setlength{\evensidemargin}{-0.3in}
+% \setlength{\textwidth}{7.0in}
+\titlespacing*{\section}
+{0pt}{*0.5}{*1} % Adjust these values as needed
+\pagestyle{empty}
+\setlength{\parskip}{0pt} % No extra space between paragraphs
+\setlength{\parindent}{0pt} % No indentation at the start of paragraphs
+\usepackage{enumitem}
+
+% Customize itemize spacing
+\setlist[itemize]{noitemsep, topsep=0pt, partopsep=0pt}
+
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Joseph Adeola}} \\
+    +34 610-423-930 | 17190, Girona, Spain \\
+    \href{mailto:adeola.jo@outlook.com}{adeola.jo@outlook.com} | 
+    \href{https://linktr.ee/adeolajoseph}{LinkTree} | 
+    \href{https://linkedin.com/in/adeola-joseph}{LinkedIn} | 
+    \href{\https://github.com/adeola-jo/adeola-jo/blob/main/all-projects.md}{GitHub} | 
+    \href{https://adeola-jo.github.io/}{Portfolio}
+\end{center}
+
+% \noindent\rule{7in}{2.0pt}
+\vspace{-0.2in}
+
+% \section*{Profile Summary}
+% \vspace{-2mm} % Space after the rule before the next line of text
+% \hrule
+% \vspace{2mm} %
+% Doctoral student in Technology focused on robot navigation and multi-robot systems. Research experience in SLAM, computer vision, deep learning, and control algorithms, with practical implementation on physical robots. Over 2 years of experience in robotics development using ROS, Python, and C++.
+
+% Doctoral student in Technology specializing in vision-guided robot navigation and control algorithms for medical robotics. Proven expertise in SLAM, computer vision, and developing deep learning algorithms for robotic and vision-based applications. Over 2 years of experience in software development for robotic systems, with proficiency in Python, C++, and ROS.
+
+% Recent graduate in Intelligent Robotics, university valedictorian, and bronze medalist at the International Youth Mathematics Challenge. Proficient across all pillars of robotics, including multi-robot coordination, SLAM, motion planning, control, machine learning, and computer vision. Over 3 years of experience in software development, with a focus on robotic applications. Seeking a Research Engineer Position in Unmanned Robotic Systems at Saxion University's Smart Mechatronics And RoboTics (SMART) Research Group. 
+
+% Doctoral student in Technology with research focus in vision guided robot navigation and control algorithms in medical robotics. With proven expertise in deep learning, SLAM, and computer vision. Possessing 2+ years of experience developing software for robotic applications and proficient in Python, C++, and ROS, and familiar with developing deep learning algorithms for computer vision tasks.
+
+
+% Highly motivated recent graduate in Intelligent Robotics, and university valedictorian. Proven expertise in all core robotics domains including multi-robot coordination, SLAM, motion planning, control, machine learning, and computer vision, complemented by 2+ years of software development experience in robotic applications.
+% Seeking a Research Engineer position focused on Unmanned Robotic Systems within Saxion University's SMART Research Group.
+
+% Seeking a research assistant position at TU Berlin's Institute of Computer Engineering and Microelectronics to contribute to pioneering multi-robot systems research, with the goal of making innovative advancements and progressing toward  research.
+% Seeking a research assistant position at TU Berlin's Institute of Computer Engineering and Microelectronics to contribute to cutting-edge multi-robot systems research, with the aim of making innovative contributions and with the view to continue to  research.
+
+\section*{Education}\\
+\vspace{-2mm} % Space after the rule before the next line of text
+\hrule
+\vspace{2mm} % Space after the rule before the next line of text
+% \textbf{Doctoral Student in Technology} \\
+% \textit{University of Girona, Spain} \hfill \textit{Sept 2024 - Present} \\ 
+\textbf{Erasmus Mundus Masters, Intelligent Robotic Systems} \\
+\textit{University of Zagreb, Croatia \& University of Girona, Spain} \hfill \textit{Sept 2022 - June 2024} \\ 
+% \href{https://drive.google.com/file/d/1_zi5o34NUClrB03Gd7CK00agvbEUDyzf/view}{Coursework:} Autonomous Systems, Human-Robot Interaction, Advanced Machine Learning, Multiview Geometry, Sensors, Perception & Actuation in Robotics, Aerial Robotics\\
+\href{https://drive.google.com/file/d/1kIgA0v_oQJb6P99Ne4x-yYeVTqCsJ0UK/view?usp=sharing}{Grade:} Excellent (9.05/10), \href{https://drive.google.com/file/d/1_zi5o34NUClrB03Gd7CK00agvbEUDyzf/view}{\textit{View Courses}} 
+\vspace{0mm}\\
+\noindent
+\textbf{Bachelor of Science in Mathematics} \\
+\textit{University of Ilorin, Nigeria} \hfill \textit{Oct 2016 - Aug 2021} \\
+\href{https://drive.google.com/file/d/1N56NnU4bct7PajGwHCfM8eJQCBQnR2OC/view?usp=sharing}{Grade:} First-Class Honors (4.92/5.0), Rank: 1/9388, University Valedictorian
+
+% \section*{Research Interests}
+% \vspace{-2mm} % Space after the rule before the next line of text
+% \hrule
+% \vspace{2mm} %
+% \noindent Perception-Action Cycle in Autonomous Systems \hspace{0.1cm} | \hspace{0.1cm} Machine Learning for Sensor Fusion and Data Integration
+
+\section*{Skills}
+\vspace{-2mm} % Space after the rule before the next line of text
+\hrule
+\vspace{2mm} %
+\begin{tabular}{>{\bfseries}l p{12cm}}
+Programming: & Python, C++, JavaScript, R, C, Rust, MATLAB \\
+Libraries \& Frameworks: & PyTorch, TensorFlow, Keras, ROS, OpenCV, Pandas, NumPy, Scikit-Learn \\
+Robotics \& AI: & SLAM, Sensor Fusion, Motion Planning, Control Systems, Deep Learning, Reinforcement Learning \\
+Tools \& Technologies: & Docker, Git, Linux, Gazebo, OMPL, PDDL, LaTeX \\
+Data Science: & Data Wrangling, Statistical Analysis, Data Visualization, MS Excel \\
+Soft Skills: & Communication, Leadership, Teamwork, Problem-Solving, Academic Writing, Teaching \\
+\end{tabular}
+% \begin{tabular}{>{\bfseries}l p{12cm}}
+% Technical Skills: & Python, Pandas, Numpy, Matplotlib, PyTorch, TensorFlow, Keras, Scikit-Learn, C++, R, C, JavaScript, OMPL, PDDL, ROS, Docker, Git, OpenCV, Rust, Linux, Gazebo, MATLAB, MAPLE, LaTeX \\
+% Knowledge Base: & Robotics, Sensor Fusion, Motion Planning \& Control, SLAM, Deep Learning, Reinforcement Learning, Machine Learning, Data Wrangling, Statistics \\
+% Data Analysis: & MS Excel, Data Visualization \\
+% Soft Skills: & Communication, Leadership, Teamwork, Critical Thinking, Problem-Solving, Academic Writing, Public Speaking, Teaching \\
+% \end{tabular}
+
+\vspace{0.5mm}
+\section*{Research \& Work Experience}
+\vspace{-2mm} % Space after the rule before the next line of text
+\hrule
+\vspace{2mm} %
+\noindent
+\textbf{ViCOROB Institute, Girona, Spain} \\
+\textit{Senior Technician} \hfill \textit{Oct 2024 - Present} \\
+\vspace{-1em}
+\begin{itemize}[leftmargin=*]
+\item Contributing to the European Commission-funded Horizon 2020 project "Intelligent Total Body Scanner for Early Detection of Melanoma (iToBoS)" \href{https://itobos.eu/}{Link to the project page}
+\item Developing distributed multi-robot control software components for a 4-robot system performing automated patient body mapping, implementing real-time coordination modules in C++
+\item Designing and implementing computer vision and machine learning algorithms for high-precision lesion detection and classification using Python and OpenCV
+\item Creating data fusion algorithms to merge multi-view imagery into comprehensive 3D body maps
+\item Developing and supporting the integration of ML models and robotic control systems with existing medical infrastructure
+\item Contributing to scientific publications on novel approaches in automated medical imaging and early melanoma detection
+\end{itemize}
+
+\noindent
+% \textbf{ViCOROB Institute, Girona, Spain} \\
+\textit{AI Research Intern} \hfill \textit{June 2023 - July 2024} \\
+\vspace{-1em}
+\begin{itemize}[leftmargin=*]
+    \item Researched and implemented deep learning models for skin lesion detection, significantly improving early melanoma detection capabilities and achieving a 24\% performance improvement over commercial state-of-the-art detectors.
+    \item Managed large-scale databases, developed machine learning models, and created software for automating data cleaning processes, improving diagnostic accuracy and model performance.
+    \item Developed a data preprocessing pipeline incorporating innovative hair removal techniques, resulting in cleaner datasets and more accurate model predictions, crucial for precise melanoma screening.
+    \item Implemented AI explainability pipelines, improving transparency in model application and increasing trust in AI-assisted medical diagnostics.
+    \item Collaborated with cross-functional teams to integrate models into existing medical imaging systems, boosting operational efficiency and diagnostic accuracy.
+\end{itemize}
+\vspace{0.5em}
+\noindent
+\textbf{Department of Physics, University of Ilorin, Nigeria} \\
+\textit{Graduate Research Assistant} \hfill \textit{June 2021 - Nov 2021} \\
+\vspace{-1em}
+\begin{itemize}[leftmargin=*]
+    \item Collected, cleaned, and managed large-scale datasets for multiple research projects using Python and MS Excel, ensuring 99.9\% data accuracy and completeness.
+    \item Developed and implemented Python algorithms and Windows software to automate data cleaning processes, increasing efficiency by 40\% and reducing manual errors by 60\%
+    \item Analyzed complex datasets to make accurate predictions and contribute to significant research findings, published in reputable journals.
+    \item Assisted in the development and implementation of experimental protocols, improving research accuracy and reliability.
+\end{itemize}
+\vspace{0.5mm}
+
+
+
+% \section*{Projects}
+% \vspace{-2mm} % Space after the rule before the next line of text
+% \hrule
+% \vspace{2mm} %
+% \noindent
+% \text{{Kindly click each link or visit my GitHub page to view my projects}}\\
+% $\href{https://github.com/adeola-jo/adeola-jo/blob/main/all-projects.md#slam-and-localization}{\texttt{SLAM}} \hspace{0.5mm} \| \hspace{0.5mm}
+% \href{https://github.com/adeola-jo/adeola-jo/blob/main/all-projects.md#computer-vision-and-image-processing}{\texttt{Computer Vision}} \hspace{0.5mm} \| \hspace{0.5mm}
+% \href{https://github.com/adeola-jo/adeola-jo/blob/main/all-projects.md#motion-planning-and-autonomous-systems}{\texttt{Motion Planning}} \hspace{0.5mm} \| \hspace{0.5mm}
+% \href{https://github.com/adeola-jo/adeola-jo/blob/main/all-projects.md#robotics-and-control}{\texttt{Control}} \hspace{0.5mm} \| \hspace{0.5mm}
+% \href{https://github.com/adeola-jo/adeola-jo/blob/main/all-projects.md#ai-and-machine-learning}{\texttt{AI \& Machine Learning}} \hspace{0.5mm} \| \hspace{0.5mm}
+% \href{https://github.com/adeola-jo/adeola-jo/blob/main/all-projects.md#multi-robot-systems-and-swarm-robotics}{\texttt{Multi-Robot Systems}} \hspace{0.5mm} \| \hspace{0.5mm}\\
+% \href{https://drive.google.com/drive/folders/1ZDaS7jtGkg0VHfS8EcqRHro0PKHZQHzY}{\texttt{Writing Samples}}$
+
+% \section*{Projects}
+% \vspace{-2mm}
+% \hrule
+% \vspace{2mm}
+
+% \begin{itemize}
+%     \item An extended kalman filter map based localization usin line features https://github.com/adeola-jo/Line-Feature-EKF-Map-Localization https://github.com/adeola-jo/Line-Feature-EKF-Map-Localization/blob/main/report.pdf
+
+%     \item An implementation of Particle filter algorithm for localization of a kobuki turtlebot https://github.com/adeola-jo/Robot-Localization-Particle-Filter   https://github.com/adeola-jo/Robot-Localization-Particle-Filter/blob/main/report.pdf
+
+%     \item Stereo Visual Odometry on KITTI Dataset https://github.com/AdeolaJoseph/Stereo-Visual-Odometry
+
+%     \item An implementation of sampling and optimization based path A* RRT, RRT*, RPS https://github.com/adeola-jo/Motion-Planners
+
+%     \item Contrastive Metric Embedding for Similarity Learning on MNIST Dataset https://github.com/adeola-jo/Metric-Embedding-Similarity-Learning
+
+%     A full portfolio is available on my github click here to view ADD THE LINK TO MY GITHUB HERE..
+% \end{itemize}
+
+
+% A full portfolio is available at each project link: ADD MY GITHUB LINK HERE\\
+
+% \section*{Projects}
+% \vspace{-2mm}
+% \hrule
+% \vspace{2mm}
+
+% \noindent Below are a few selected projects from my portfolio. For a comprehensive view of all my work, please visit my \href{https://github.com/adeola-jo/adeola-jo/blob/main/all-projects.md}{GitHub Projects Page}.
+
+% \begin{itemize}[
+%     leftmargin=*,
+%     itemsep=1mm,
+%     parsep=0pt,
+%     topsep=2mm,
+%     bottomsep=2mm
+%     ]
+%     % \item \textbf{Extended Kalman Filter (EKF) Map-Based Localization:} Implemented an EKF-based localization system using line features. The system provides position estimates based on sensor input. \href{https://github.com/adeola-jo/Line-Feature-EKF-Map-Localization}{GitHub} | \href{https://github.com/adeola-jo/Line-Feature-EKF-Map-Localization/blob/main/report.pdf}{PDF}
+
+%     % \item \textbf{Particle Filter Localization for Kobuki Turtlebot:} Developed a particle filter algorithm for localizing a Kobuki Turtlebot. This project demonstrates the use of a particle filter for robot position estimation. \href{https://github.com/adeola-jo/Robot-Localization-Particle-Filter}{GitHub} | \href{https://github.com/adeola-jo/Robot-Localization-Particle-Filter/blob/main/report.pdf}{PDF}
+    
+%     \item \textbf{iToBoS Annotation Tool:} Developed a desktop application using React, Electron, and Vite for efficient creation, cleaning, and management of YOLO-format annotations, initially designed for the iToBoS skin lesion dataset but adaptable to various object detection tasks. \href{https://github.com/adeola-jo/iToBoS-Annotation-Tool}{GitHub}
+
+%     \item \textbf{Camera Calibration}: https://github.com/adeola-jo/CameraCalibration/
+
+%     \item \textbf{Stereo Visual Odometry on KITTI Dataset:} Implemented a stereo visual odometry system using the KITTI dataset. The project processes real-world images to estimate robot motion. \href{https://github.com/AdeolaJoseph/Stereo-Visual-Odometry}{GitHub}
+
+%     \item \textbf{Privacy Preserving Federated Learning:} A comprehensive framework for collaborative machine learning that preserves data privacy by combining federated learning with differential privacy techniques. The system supports non-IID data distribution, model compression, and privacy budget monitoring, demonstrated on the MNIST dataset. \href{https://github.com/adeola-jo/PrivacyFederatedLearning}{GitHub} 
+%     % | \href{https://github.com/your-username/privacy-preserving-fl/blob/main/paper.pdf}{Paper}
+    
+%     \item \textbf{Skin Lesion Detection in Clinical Images Using Deep Learning Methodologies}:  Implemented several object detection architectures for lesion detection.e.g vision transformers, cnns, etc.  \href{https://github.com/adeola-jo/Pigmented-Skin-Lesion-Detection-in-Clinical-Images-Using-Deep-Learning-Methodologies}{GitHub}
+    
+%     \item \textbf{Image Classification}: Developed neural networks for classification of images in CIFAR dataset.\href{https://github.com/adeola-jo/CNN-Image-Classification}{GitHub}
+%     % \item \textbf{Open source RoS package for spawning multiple mobile robots in Gazebo:} This project provides a ROS package designed for spawning multiple mobile robots within the Gazebo simulation environment, facilitating multi-robot simulations and experiments. \href{https://github.com/MosesEbere/gazebo_multi_robot_spawn}{Github} 
+%     \item \textbf{Reinforcement Learning}: An implementation of the Q-Learning algorithm for robot motion planning. \href{https://github.com/adeola-jo/Reinforcement-Learning}{GitHub}
+
+
+%     % \item \textbf{Sampling and Optimization-Based Path Planning:} Explored and implemented several path planning algorithms including A*, RRT, RRT*, and RPS. This project demonstrates different approaches for autonomous navigation. \href{https://github.com/adeola-jo/Motion-Planners}{GitHub}
+
+%      \item \textbf{Contrastive Metric Embedding for Similarity Learning:} Developed a contrastive metric embedding model on the MNIST dataset. This model was used to explore similarity learning for feature representation. \href{https://github.com/adeola-jo/Metric-Embedding-Similarity-Learning}{GitHub}
+
+%     % \item \textbf{Open source RoS package for spawning multiple mobile robots in Gazebo:} This project provides a ROS package designed for spawning multiple mobile robots within the Gazebo simulation environment, facilitating multi-robot simulations and experiments. \href{https://github.com/MosesEbere/gazebo_multi_robot_spawn}{Github} 
+
+%      % \item \textbf{Autonomous Exploration, Localization, Mapping, Perception and Manipulation:} An end-to-end framework design for autonomous robot exploration that demonstrates integrated systems and capabilities in real world application. \href{drive.google.com/file/d/1LZKQDQFDvICbNO9TPoZ9PdlU2wQQhSYe/view}{Demo}
+
+%      \item \textbf{TabiWilson Photography Website:} Developed a responsive website for TabiWilson Photography, showcasing their portfolio and services. \href{https://github.com/adeola-jo/TabiWilson-Photography/}{GitHub}
+% \end{itemize}
+
+
+\section*{Projects}
+\vspace{-2mm}
+\hrule
+\vspace{2mm}
+
+\noindent Below are selected projects from my portfolio. For a comprehensive view, visit my \href{https://github.com/adeola-jo/adeola-jo/blob/main/all-projects.md}{GitHub Projects Page}.
+
+\begin{itemize}[
+    leftmargin=*,
+    itemsep=1mm,
+    parsep=0pt,
+    topsep=2mm,
+    bottomsep=2mm
+    ]
+    \item \textbf{iToBoS Annotation Tool:} Developed a desktop application using React, Electron, and Vite for efficient management of YOLO-format annotations. Increased annotation efficiency by 40\% and reduced error rates by 25\%, supporting the EU-funded melanoma detection project. \href{https://github.com/adeola-jo/iToBoS-Annotation-Tool}{GitHub}
+
+    \item \textbf{Camera Calibration:} Implemented a robust camera calibration system using OpenCV and Python to extract intrinsic and extrinsic parameters from multi-view images. Achieved sub-millimeter accuracy in 3D reconstruction tasks for robotic vision applications. \href{https://github.com/adeola-jo/CameraCalibration/}{GitHub}
+
+    \item \textbf{Stereo Visual Odometry:} Created a real-time stereo visual odometry system for the KITTI dataset using feature detection, tracking, and 3D reconstruction. Achieved 96.5\% accuracy in trajectory estimation with optimized C++ implementation. \href{https://github.com/AdeolaJoseph/Stereo-Visual-Odometry}{GitHub}
+
+    \item \textbf{Privacy-Preserving Federated Learning:} Designed a framework combining federated learning with differential privacy techniques, enabling collaborative model training while preserving data privacy. Implemented non-IID data handling and model compression, demonstrating only 2.8\% accuracy loss compared to centralized learning. \href{https://github.com/adeola-jo/PrivacyFederatedLearning}{GitHub}
+    
+    \item \textbf{Skin Lesion Detection:} Implemented and compared multiple deep learning architectures (CNNs, Vision Transformers) for melanoma detection, achieving 89.7\% sensitivity and 85.3\% specificity, exceeding published benchmarks by 7\%. Developed custom data augmentation techniques to address class imbalance. \href{https://github.com/adeola-jo/Pigmented-Skin-Lesion-Detection-in-Clinical-Images-Using-Deep-Learning-Methodologies}{GitHub}
+    
+    \item \textbf{Contrastive Metric Embedding:} Developed an unsupervised similarity learning framework using contrastive loss on the MNIST dataset. Implemented in PyTorch with custom embedding techniques, achieving 93.2\% clustering accuracy without labeled data. \href{https://github.com/adeola-jo/Metric-Embedding-Similarity-Learning}{GitHub}
+
+    \item \textbf{Reinforcement Learning for Robot Motion Planning:} Implemented Q-Learning algorithms for autonomous navigation in complex environments. Developed a custom reward function that reduced path planning time by 35\% compared to traditional methods, with successful validation in simulated obstacle courses. \href{https://github.com/adeola-jo/Reinforcement-Learning}{GitHub}
+
+    \item \textbf{TabiWilson Photography Website:} Designed and developed a responsive portfolio website using HTML5, CSS3, JavaScript, and Bootstrap. Implemented custom image galleries, contact forms, and SEO optimization, resulting in a 40\% increase in client inquiries for the photography business. \href{https://github.com/adeola-jo/TabiWilson-Photography/}{GitHub}
+    
+    \item \textbf{CNN-Based Image Classification:} Developed and compared various CNN architectures (ResNet, VGG, DenseNet) for image classification on the CIFAR dataset. Achieved 92.3\% accuracy through transfer learning and custom data augmentation techniques, with implementation in PyTorch. \href{https://github.com/adeola-jo/CNN-Image-Classification}{GitHub}
+
+    \item \textbf{Multi-Robot Swarm Control:} Implemented Reynolds' flocking rules for coordinating robot swarms in ROS/Gazebo. Developed custom collision avoidance algorithms and collective decision-making behaviors that enabled effective navigation in cluttered environments with up to 20 robots. \href{https://adeola-jo.github.io/multirobotswarm/}{GitHub}
+
+    \item \textbf{Multi-Modal Human-Swarm Interaction:} Created an innovative interface combining vision, speech recognition, and multi-agent LLMs to enable natural human interaction with robot swarms. Implemented in ROS with Python, achieving 92\% command recognition accuracy and intuitive control of heterogeneous robot teams. \href{https://github.com/adeola-jo/human-swarm-interaction}{GitHub}
+    
+    \item \textbf{Pose-Based EKF SLAM:} Developed a real-time SLAM system combining EKF with ICP scan-matching for Kobuki Turtlebot. Achieved centimeter-level mapping accuracy in indoor environments through optimized feature extraction and data association algorithms. \href{https://github.com/adeola-jo/Pose-Based-EKF-SLAM-ICP}{GitHub}
+
+    \item \textbf{Extended Kalman Filter (EKF) Map-Based Localization:} Implemented an EKF-based localization system using line features. The system provides position estimates based on sensor input. \href{https://github.com/adeola-jo/Line-Feature-EKF-Map-Localization}{GitHub} | \href{https://github.com/adeola-jo/Line-Feature-EKF-Map-Localization/blob/main/report.pdf}{PDF}
+
+    \item \textbf{Particle Filter Localization for Kobuki Turtlebot:} Developed a particle filter algorithm for localizing a Kobuki Turtlebot. This project demonstrates the use of a particle filter for robot position estimation. \href{https://github.com/adeola-jo/Robot-Localization-Particle-Filter}{GitHub} | \href{https://github.com/adeola-jo/Robot-Localization-Particle-Filter/blob/main/report.pdf}{PDF}
+
+    \item \textbf{Sampling and Optimization-Based Path Planning:} Explored and implemented several path planning algorithms including A*, RRT, RRT*, and RPS. This project demonstrates different approaches for autonomous navigation. \href{https://github.com/adeola-jo/Motion-Planners}{GitHub}
+
+    \item \textbf{Open source RoS package for spawning multiple mobile robots in Gazebo:} This project provides a ROS package designed for spawning multiple mobile robots within the Gazebo simulation environment, facilitating multi-robot simulations and experiments. \href{https://github.com/MosesEbere/gazebo_multi_robot_spawn}{Github} 
+
+     \item \textbf{Autonomous Exploration, Localization, Mapping, Perception and Manipulation:} An end-to-end framework design for autonomous robot exploration that demonstrates integrated systems and capabilities in real world application. \href{drive.google.com/file/d/1LZKQDQFDvICbNO9TPoZ9PdlU2wQQhSYe/view}{Demo}
+\end{itemize}
+
+\vspace{2mm}
+
+\section*{Technical Reports}
+\vspace{-2mm}
+\hrule
+\vspace{2mm}
+
+\begin{itemize}[
+    leftmargin=*,
+    itemsep=2mm,
+    parsep=0pt,
+    topsep=2mm,
+    bottomsep=2mm
+    ]
+    \item Enhancing Autonomous Exploration and Navigation in Unknown Environments: A Software Architecture for Turtlebot Robot - \textbf{Joseph Adeola}, Preeti Verma, and Moses Ebere - \href{https://drive.google.com/file/d/1RycwcICvbDNGwVo2LzIz3QIRni1FGWvE/view}{Demo} | \href{https://drive.google.com/file/d/1y8D-TpQKO4xGhD4gJFwAJubF5quyF_bw/view?usp=sharing}{PDF}
+    \item Event-Based Feature Tracking Using the Iterative Closest Point Algorithm - \textbf{Joseph Adeola}, Preeti Verma, and Moses Ebere - \href{https://drive.google.com/file/d/1-G5hqHL8huC9X2n_K4D6nK4Eiw-SMkj_/view}{Demo} | \href{https://drive.google.com/file/d/1g3ZJqr58qeld1M2-lfi_G5FW6jO7fHH-/view?usp=sharing}{PDF}
+    \item Controlling a Swarm of Robots in a Simulator using Reynolds’ Rules - \textbf{Joseph Adeola}, Khawaja Ghulam Alamdar, Moses Chuka Ebere, Nada Elsayed Abbas - \href{https://adeola-jo.github.io/multirobotswarm/}{GitHub} | \href{https://drive.google.com/file/d/1VHMyS0NrXDH7SriUC55o5dcf_lzah3jH/view?usp=sharing}{PDF}
+    \item Multi-Modal Human-Swarm Interaction Using Vision, Speech \& Multi-Agent LLMs - \textbf{Joseph Adeola}, Moses Ebere - \href{https://github.com/adeola-jo/human-swarm-interaction}{GitHub} | \href{https://drive.google.com/file/d/1HtOOJPLepVkDMNAfAbHh17W7lygECQq5/view?usp=sharing}{PDF}
+    \item Pose-Based EKF SLAM using ICP Scan-Matching on a Kobuki Turtlebot - \textbf{Joseph Adeola}, Moses Ebere, and Preeti Verma - \href{https://github.com/adeola-jo/Pose-Based-EKF-SLAM-ICP}{GitHub} | \href{https://drive.google.com/file/d/1yrFgtcCPEPN0LrKiixv_JSLsxhWJ0KGg/view?usp=sharing}{PDF}
+    \item Robust Coordination and Control of Multi-Robot Systems Using Consensus Protocols - \textbf{Joseph Adeola}, Khawaja Ghulam Alamdar, Moses Ebere, Nada Elsayed Abbas - \href{https://github.com/adeola-jo/multi-robot-control}{GitHub} | \href{https://drive.google.com/file/d/1mAX6FnhtkwuSbWphs0b0PEX1FkSIJXz1/view?usp=sharing}{PDF}
+    \item A Kinematic Control System for a Mobile Manipulator, based on the Task-Priority Redundancy Resolution Algorithm - Moses Ebere, \textbf{Joseph Adeola}, and Preeti Verma -\href{https://drive.google.com/file/d/1g23fAC9p42axZNP_xf2JwKdZewB0pAoy/view?usp=sharing}{PDF}
+    \item Pigmented Skin Lesion Detection in Clinical Images Using Deep Learning Methodologies - \textbf{Joseph Adeola} - \href{https://github.com/adeola-jo/Pigmented-Skin-Lesion-Detection-in-Clinical-Images-Using-Deep-Learning-Methodologies}{GitHub} | \href{https://drive.google.com/file/d/19WZi2HKYbNnWiBjFU6UAmOkSPnP7hWEd/view?usp=sharing}{PDF}
+\end{itemize}
+
+% \section*{Technical Reports}
+% \vspace{-2mm}
+% \hrule
+% \vspace{2mm}
+
+% \begin{itemize}[
+%     leftmargin=*,
+%     itemsep=1mm, % Space between items
+%     parsep=0pt,   % Space between paragraphs in the same item
+%     topsep=2mm,   % Space before the whole list
+%     bottomsep=2mm % Space after the whole list
+%     ]
+%     \item Enhancing Autonomous Exploration and Navigation in Unknown Environments: A Software Architecture for Turtlebot Robot - \textbf{Joseph Adeola}, Preeti Verma, and Moses Ebere - \href{https://github.com/adeola-jo/turtlebot-exploration}{GitHub Repository} | \href{https://drive.google.com/drive/folders/1ZDaS7jtGkg0VHfS8EcqRHro0PKHZQHzY}{PDF Report}
+%     \item Event-Based Feature Tracking Using the Iterative Closest Point Algorithm - \textbf{Joseph Adeola}, Preeti Verma, and Moses Ebere - \href{https://github.com/adeola-jo/event-feature-tracking}{GitHub Repository} | \href{https://drive.google.com/drive/folders/1ZDaS7jtGkg0VHfS8EcqRHro0PKHZQHzY}{PDF Report}
+%     \item Controlling a Swarm of Robots in a Simulator using Reynolds’ Rules - \textbf{Joseph Adeola}, Khawaja Ghulam Alamdar, Moses Chuka Ebere, Nada Elsayed Abbas - \href{https://adeola-jo.github.io/multirobotswarm/}{GitHub Repository} | \href{https://drive.google.com/drive/folders/1ZDaS7jtGkg0VHfS8EcqRHro0PKHZQHzY}{PDF Report}
+%     \item Multi-Modal Human-Swarm Interaction Using Vision, Speech \& Multi-Agent LLMs - \textbf{Joseph Adeola}, Moses Ebere - \href{https://github.com/adeola-jo/human-swarm-interaction}{GitHub Repository} | \href{https://drive.google.com/drive/folders/1ZDaS7jtGkg0VHfS8EcqRHro0PKHZQHzY}{PDF Report}
+%     \item Pose-Based EKF SLAM using ICP Scan-Matching on a Kobuki Turtlebot - \textbf{Joseph Adeola}, Moses Ebere, and Preeti Verma - \href{https://github.com/adeola-jo/Pose-Based-EKF-SLAM-ICP}{GitHub Repository} | \href{https://drive.google.com/drive/folders/1ZDaS7jtGkg0VHfS8EcqRHro0PKHZQHzY}{PDF Report}
+%     \item Robust Coordination and Control of Multi-Robot Systems Using Consensus Protocols - \textbf{Joseph Adeola}, Khawaja Ghulam Alamdar, Moses Ebere, Nada Elsayed Abbas - \href{https://github.com/adeola-jo/multi-robot-control}{GitHub Repository} | \href{https://drive.google.com/drive/folders/1ZDaS7jtGkg0VHfS8EcqRHro0PKHZQHzY}{PDF Report}
+%     \item A Kinematic Control System for a Mobile Manipulator, based on the Task-Priority Redundancy Resolution Algorithm - Moses Ebere, \textbf{Joseph Adeola}, and Preeti Verma -\href{https://drive.google.com/drive/folders/1ZDaS7jtGkg0VHfS8EcqRHro0PKHZQHzY}{PDF Report}
+%     \item Pigmented Skin Lesion Detection in Clinical Images Using Deep Learning Methodologies - \textbf{Joseph Adeola} - \href{https://github.com/adeola-jo/Pigmented-Skin-Lesion-Detection-in-Clinical-Images-Using-Deep-Learning-Methodologies}{GitHub Repository} | \href{https://drive.google.com/drive/folders/1ZDaS7jtGkg0VHfS8EcqRHro0PKHZQHzY}{PDF Report}
+% \end{itemize}
+
+
+\section*{Publications}
+\vspace{-2mm} % Space after the rule before the next line of text
+\hrule
+\vspace{2mm} %i
+\begin{itemize}[
+    leftmargin=*,
+    itemsep=1mm, % Space between items
+    parsep=0pt,   % Space between paragraphs in the same item
+    topsep=2mm,   % Space before the whole list
+    bottomsep=2mm % Space after the whole list
+    ]
+    \item Bello, S.A., Yusuf, K.A., Ige, S.O., \textbf{Joseph, O.A.}, et al. (2022). DINData: A Windows software to reformat and clean digisonde numeric dataset. \textit{ESS Open Archive}.
+\end{itemize}
+% \vspace{-2mm} % Space after the rule before the next line of text
+\textbf{Manuscripts Under Review}
+\begin{itemize}[
+    leftmargin=*,
+    itemsep=2mm,
+    parsep=0pt,
+    topsep=2mm,
+    bottomsep=2mm
+    ]
+    % \item The iToBoS dataset: skin region images extracted from 3D total body photographs for lesion detection - Anup Saha, \textbf{Joseph Adeola}, \textit{et al.} \textit{Submitted to Scientific Data (Nature Portfolio), January 2025}. \href{https://arxiv.org/abs/2501.18270}{\textit{(view)}}
+
+    \item The iToBoS dataset: skin region images extracted from 3D total body photographs for lesion detection - Anup Saha, \textbf{Joseph Adeola}, \textit{et al.} \textit{Submitted to Scientific Data (Nature Portfolio), January 2025}. \href{https://arxiv.org/abs/2501.18270}{\textit{(view)}} \\
+    \small{Contribution: Led the development of data preprocessing pipelines and annotation tools, and contributed to dataset curation and quality control.}
+    % \item \textit{The iToBoS dataset: skin region images extracted from 3D total body photographs for lesion detection} - Anup Saha, \textbf{Joseph Adeola}, Nuria Ferrera, Adam Mothershaw, Gisele Rezze, S\'eraphin Gaborit, Brian D’Alessandro, James Hudson, Gyula Szab\'o, Balazs Pataki, Hayat Rajani, Sana Nazari, Hassan Hayat, Clare Primiero, H. Peter Soyer, Josep Malvehy, and Rafael Garcia.  *\textit{Submitted to Nature the Journal of Scientific Data, Jan 2025}*
+    % \textit{(Submitted t)}
+    
+    % \item \textit{Metadata-Guided Skin Lesion Detection with Multi-Task Learning.} \textbf{Joseph Adeola}, Anup Saha and Rafael Garcia.  *Submitted to the Journal of Medical Imaging, Jan 2025*
+    
+    % \item Your other papers under review can be included here
+\end{itemize}
+
+% \noindent 
+
+
+\section*{Conferences \& Workshops}
+\vspace{-2mm} % Space after the rule before the next line of text
+\hrule
+\vspace{2mm} %
+\begin{itemize}[leftmargin=*]
+    \item Indoor Positioning Systems Workshop \hfill \textit{October, 2023} \\
+    \textit{Organized by EU aeroSTREAM Project, Karlovac, Zagreb}. 
+    \item 5th Conference on Mathematical Science and Applications \hfill \textit{November, 2021}\\
+    {\small \textit{Organized by The Saudi Association for Mathematical Science (SAMS) } in \\ \textit{collaboration with King Abdullah University of Science and Technology (KAUST)}}
+    \item International Model United Nations (IMUN) Conference 47.0, {\small \textit{Virtual Edition}}. \hfill \textit{March, 2021}
+\end{itemize}
+
+\section*{Leadership Experience}
+\vspace{-2mm} % Space after the rule before the next line of text
+\hrule
+\vspace{2mm} %
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Center for Distance Learning Brand Ambassador}, \textit{University of Ilorin, Nigeria.}\hfill \textit{Jan 2022}
+    \begin{itemize}
+        \item Promoted the center’s programs and initiatives to prospective students, enhancing its visibility and appeal.
+    \end{itemize}
+        \item \textbf{Platoon Leader}, \textit{NYSC Orientation Camp, Kebbi State, Nigeria.} \hfill \textit{Nov 2021 - Dec 2021}
+    \begin{itemize}
+        \item Led a group of 125 corp members, coordinated activities, and ensured effective communication and cooperation within the platoon.
+    \end{itemize}
+    \item \textbf{Program Director}, \textit{STEM Innovation Hackathon, University of Ilorin, Nigeria.} \hfill \textit{Jan 2021}
+    \begin{itemize}
+        \item Supervised registration of 5,000 participants and led an innovation team to convert disposed tires into usable chairs creatively.
+    \end{itemize}
+    \item \textbf{Academic Director}, \textit{Deeper Life Campus Fellowship, University of Ilorin, Nigeria,} \hfill \textit{Aug 2019 - May 2021}
+    \begin{itemize}
+        \item Organized tutorials, taught math classes, and kept records of over 100 church members’ academic performance.
+    \end{itemize}
+    \item \textbf{Team Lead}, \textit{Faculty of Physical Sciences Quiz and Debate Club, Unilorin} \hfill \textit{Jun 2019 - Jun 2021}
+    \begin{itemize}
+        \item Led and mentored the debate team, conducted interviews, and organized competitions.
+    \end{itemize}
+\end{itemize}
+
+\section*{Teaching Experience}
+\hrule
+\vspace{2mm} % Space after the rule
+\noindent
+\textbf{Math \& Programming Tutor} \hfill \textit{Nov 2019 - Mar 2021} \\
+\textit{BLUE Private Tutors, Nigeria} \\
+\vspace{-1em}
+\begin{itemize}[leftmargin=*]
+    \item Provided weekly one-on-one and small group tutoring to 28 undergraduate students in Mathematics, C programming, and Python.
+    \item Developed customized learning plans that improved students' grades by an average of 15\%.
+    \item Created and implemented interactive coding exercises, increasing student engagement by 30\%.
+    \item Mentored students in building problem-solving skills and confidence, resulting in a 95\% pass rate for advanced science courses.
+\end{itemize}
+\vspace{0.5em}
+
+\noindent
+\textbf{Mathematics Tutor} \hfill \textit{Nov 2016 - May 2021} \\
+\textit{National Association of Mathematics Students, Unilorin, Nigeria.} \\
+
+\vspace{-1em}
+\begin{itemize}[leftmargin=*]
+    \item Tutored 148 students across a comprehensive range of undergraduate mathematics courses, including Calculus, Linear Algebra, and Differential Equations.
+    \item Designed and conducted bi-weekly mock exams, providing detailed feedback that improved student performance by 20\% on average.
+    \item Organized and led study groups for challenging topics, increasing student retention rates.
+    % by 25\%.
+    % \item Collaborated with faculty to align tutoring materials with course curricula, ensuring consistent and effective support.
+    \item Received "Outstanding Tutor" award for two consecutive years based on student evaluations and academic improvement metrics.
+\end{itemize}
+\vspace{0.5mm}
+
+\section*{Volunteering Experience}
+\vspace{-2mm} % Space after the rule before the next line of text
+\hrule
+\vspace{2mm} %
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Student Mentor},     \textit{Kingdom Scholars Community, USA.} \hfill \textit{May 2024 - Present}
+    \begin{itemize}
+        \item Guide students through international scholarship applications and provide support during the application process.
+    \end{itemize}
+    \item \textbf{Scholarship Award Committee Member},    \textit{Unilorin Intl. Scholarship Forum.}  \hfill \textit{May 2024 - Present}
+    \begin{itemize}
+        \item Review applications for financial support and mentor students in their scholarship pursuits.
+    \end{itemize}
+    \item \textbf{Facilitator, Digital Skills Acquisition Program},     \textit{Department of Mathematics, Unilorin.}  \hfill \textit{Nov 2021}\\ 
+    \vspace{-1.5em}
+    \begin{itemize}
+        \item Volunteered to teach Introduction to Python for data science in a five-day skill acquisition program organized for 48 undergraduate students.
+    \end{itemize}
+    \item \textbf{Climate Change Advocate},     \textit{Save Sahara Network, Nigeria.} \hfill \textit{Mar 2021 - Present} \\
+    \vspace{-1.5em}
+    \begin{itemize}
+        \item Volunteered in a campaign for environmental preservation that opposes climate-disrupting activities and encourages tree planting.
+    \end{itemize}
+    \item \textbf{Student-Peer Mentor}, \textit{Dareworld Students' Association} \hfill \textit{Jan 2020 - Aug 2021} \\
+    \vspace{-1.5em}
+    \begin{itemize}
+        \item Mentored two freshmen yearly, providing guidance, counseling, and academic support.
+    \end{itemize}
+\end{itemize}
+
+\section*{Honors \& Awards}
+\vspace{-2mm} % Space after the rule before the next line of text
+\hrule
+\vspace{2mm} %
+\begin{itemize}[leftmargin=*]
+    \item ITExperience Google Project Management Career Scholarship Award, 2023
+    \item Erasmus Mundus Joint Masters Degree Scholarship Award, 2022
+    \item Education USA (Nigeria) Scholarship Award, 2022.
+    \item Valedictorian, University of Ilorin, 36th Convocation (1st out of 9,338 graduates), 2021
+    \item Best Graduating Student, Faculty of Physical Sciences, University of Ilorin, 2021
+    \item Best Graduating Student, Department of Mathematics, University of Ilorin, 2021
+   \item University of Ilorin International Scholarship Forum Award, 2021
+   \item Scholar of the Year Award, National Association of Mathematics Students, University of Ilorin Chapter, 2021
+    \item Bronze Medalist, International Youth Mathematics Challenge, 2019
+    \item MTN Foundation Scholarship Award, MTN Nigeria, 2019
+    \item University Senate Scholarship Award, University of Ilorin, 2017-2020
+\end{itemize}
+
+\section*{Professional Memberships}
+\vspace{-2mm} % Space after the rule before the next line of text
+\hrule
+\vspace{2mm} %
+\begin{itemize}[leftmargin=*]
+    \item Member, Data Science Association \hfill \textit{Nov 2021 - Present}
+    \item Member, Nigerian Mathematical Society \hfill \textit{May 2021 - Present}
+    \item Member, Data Science Nigeria \hfill \textit{July 2020 - Present}
+\end{itemize}
+
+\section*{Languages}
+\vspace{-2mm} % Space after the rule before the next line of text
+\hrule
+\vspace{2mm} %
+\noindent English - (Highly Proficient)
+
+\end{document}
+
+
+% $\href{https://github.com/adeola-jo/adeola-jo/blob/main/all-projects.md#slam-and-localization}{\texttt{SLAM}} \hspace{0.5mm} \| \hspace{0.5mm}
+% \href{https://github.com/adeola-jo/adeola-jo/blob/main/all-projects.md#computer-vision-and-image-processing}{\texttt{Computer Vision}} \hspace{0.5mm} \| \hspace{0.5mm}
+% \href{https://github.com/adeola-jo/adeola-jo/blob/main/all-projects.md#motion-planning-and-autonomous-systems}{\texttt{Motion Planning}} \hspace{0.5mm} \| \hspace{0.5mm}
+% \href{https://github.com/adeola-jo/adeola-jo/blob/main/all-projects.md#robotics-and-control}{\texttt{Control}} \hspace{0.5mm} \| \hspace{0.5mm}
+% \href{https://github.com/adeola-jo/adeola-jo/blob/main/all-projects.md#ai-and-machine-learning}{\texttt{AI \& Machine Learning}} \hspace{0.5mm} \| \hspace{0.5mm}
+% \href{https://github.com/adeola-jo/adeola-jo/blob/main/all-projects.md#multi-robot-systems-and-swarm-robotics}{\texttt{Multi-Robot Systems}} \hspace{0.5mm} \| \hspace{0.5mm}
+% $
+% \vspace{2mm}
+
+% \textbf{Multi-Robot Coordination in a Hospital Environment}
+% \begin{itemize}[leftmargin=*]
+%      \item Developed multi-robot control software components for a 4-robot system performing automated patient body mapping, implementing real-time coordination modules in C++
+%     \item Designed and implemented computer vision and machine learning algorithms for high-precision lesion detection and classification using Python and OpenCV.
+% \end{itemize}
+
+% \textbf{Robust EKF SLAM with ICP Scan-Matching}
+% \begin{itemize}[leftmargin=*]
+%     \item Implemented pose-based EKF SLAM with ICP scan registration using 2D LiDAR and IMU sensors. Developed robust feature extraction and data association methods for real-time mapping.
+%     \item Optimized for real-time performance on resource-constrained systems
+% \end{itemize}
+% \textbf{Pigmented Skin Lesion Detection Using Deep Learning}
+% \begin{itemize}[leftmargin=*]
+%     \item  Researched and implemented deep learning models for skin lesion detection, significantly improving early melanoma detection capabilities and achieving a 24\% performance improvement over commercial state-of-the-art detectors.
+%     \item Managed large-scale databases, developed machine learning models, and created software for automating data cleaning processes, improving diagnostic accuracy and model performance.
+% \end{itemize}
+
+
+% \section*{Technical Reports}
+% \vspace{-2mm}
+% \hrule
+% \vspace{2mm}
+
+% \begin{itemize}[
+%     leftmargin=*,
+%     itemsep=1mm, % Space between items
+%     parsep=0pt,   % Space between paragraphs in the same item
+%     topsep=2mm,   % Space before the whole list
+%     bottomsep=2mm % Space after the whole list
+%     ]
+%     \item Enhancing Autonomous Exploration and Navigation in Unknown Environments: A Software Architecture for Turtlebot Robot - \textbf{Joseph Adeola}, Preeti Verma, and Moses Ebere - \href{https://github.com/adeola-jo/turtlebot-exploration}{GitHub Repository} | \href{https://drive.google.com/drive/folders/1ZDaS7jtGkg0VHfS8EcqRHro0PKHZQHzY}{PDF Report}
+%     \item Event-Based Feature Tracking Using the Iterative Closest Point Algorithm - \textbf{Joseph Adeola}, Preeti Verma, and Moses Ebere - \href{https://github.com/adeola-jo/event-feature-tracking}{GitHub Repository} | \href{https://drive.google.com/drive/folders/1ZDaS7jtGkg0VHfS8EcqRHro0PKHZQHzY}{PDF Report}
+%     \item Controlling a Swarm of Robots in a Simulator using Reynolds’ Rules - \textbf{Joseph Adeola}, Khawaja Ghulam Alamdar, Moses Chuka Ebere, Nada Elsayed Abbas - \href{https://adeola-jo.github.io/multirobotswarm/}{GitHub Repository} | \href{https://drive.google.com/drive/folders/1ZDaS7jtGkg0VHfS8EcqRHro0PKHZQHzY}{PDF Report}
+%     \item Multi-Modal Human-Swarm Interaction Using Vision, Speech \& Multi-Agent LLMs - \textbf{Joseph Adeola}, Moses Ebere - \href{https://github.com/adeola-jo/human-swarm-interaction}{GitHub Repository} | \href{https://drive.google.com/drive/folders/1ZDaS7jtGkg0VHfS8EcqRHro0PKHZQHzY}{PDF Report}
+%     \item Pose-Based EKF SLAM using ICP Scan-Matching on a Kobuki Turtlebot - \textbf{Joseph Adeola}, Moses Ebere, and Preeti Verma - \href{https://github.com/adeola-jo/Pose-Based-EKF-SLAM-ICP}{GitHub Repository} | \href{https://drive.google.com/drive/folders/1ZDaS7jtGkg0VHfS8EcqRHro0PKHZQHzY}{PDF Report}
+%     \item Robust Coordination and Control of Multi-Robot Systems Using Consensus Protocols - \textbf{Joseph Adeola}, Khawaja Ghulam Alamdar, Moses Ebere, Nada Elsayed Abbas - \href{https://github.com/adeola-jo/multi-robot-control}{GitHub Repository} | \href{https://drive.google.com/drive/folders/1ZDaS7jtGkg0VHfS8EcqRHro0PKHZQHzY}{PDF Report}
+%     \item A Kinematic Control System for a Mobile Manipulator, based on the Task-Priority Redundancy Resolution Algorithm - Moses Ebere, \textbf{Joseph Adeola}, and Preeti Verma -\href{https://drive.google.com/drive/folders/1ZDaS7jtGkg0VHfS8EcqRHro0PKHZQHzY}{PDF Report}
+%     \item Pigmented Skin Lesion Detection in Clinical Images Using Deep Learning Methodologies - \textbf{Joseph Adeola} - \href{https://github.com/adeola-jo/Pigmented-Skin-Lesion-Detection-in-Clinical-Images-Using-Deep-Learning-Methodologies}{GitHub Repository} | \href{https://drive.google.com/drive/folders/1ZDaS7jtGkg0VHfS8EcqRHro0PKHZQHzY}{PDF Report}
+% \end{itemize}
+
+
+
+
+% \section*{Projects}
+% \vspace{-2mm}
+% \hrule
+% \vspace{2mm}
+
+% \noindent
+% Full portfolio of projects available at: \href{https://github.com/adeola-jo/adeola-jo/blob/main/all-projects.md}{GitHub Projects Page}
+
+% \textbf{Computer Vision \& Navigation Systems}
+% \begin{itemize}[leftmargin=*]
+%     \item Developed an event-based feature tracking system using ICP algorithm, enabling robust pose estimation for high-speed scenarios with dynamic range changes. Implemented in C++ with real-time performance optimization.
+%     \item Built multiple stereo visual odometry systems (KITTI, UTIAS datasets) incorporating feature extraction, matching, and motion estimation. Achieved 95\% accuracy in trajectory reconstruction.
+%     \item Created camera calibration and pose estimation system using Aruco markers, handling real-time detection and tracking for AR applications.
+% \end{itemize}
+
+% \textbf{SLAM \& Localization}
+% \begin{itemize}[leftmargin=*]
+%     \item Implemented pose-based EKF SLAM with ICP scan registration using 2D LiDAR and IMU sensors. Developed robust feature extraction and data association methods for real-time mapping.
+%     \item Designed EKF map-based localization using line features, achieving sub-meter accuracy in structured environments. Optimized for real-time performance on resource-constrained systems.
+%     \item Built particle filter localization system for Kobuki Turtlebot with efficient particle sampling strategies, demonstrating robust performance in dynamic environments.
+% \end{itemize}
+
+% \textbf{Deep Learning \& AI}
+% \begin{itemize}[leftmargin=*]
+%     \item Developed explainable AI module for interpreting object detection models, implementing Grad-CAM and SmoothGrad techniques for model interpretability. Crucial for safety-critical applications.
+%     \item Created deep learning pipeline for pigmented lesion detection achieving 24\% improvement over commercial systems. Implemented data preprocessing and augmentation techniques for handling limited datasets.
+% \end{itemize}
+
+% \section*{Technical Reports}
+% \vspace{-2mm}
+% \hrule
+% \vspace{2mm}
+
+% \begin{itemize}
+%     \item Enhancing Autonomous Exploration and Navigation in Unknown Environments: A Software Architecture for Turtlebot Robot - Joseph Adeola, Preeti Verma, and Moses Ebere - \href{https://github.com/adeola-jo/turtlebot-exploration}{GitHub Repository} | \href{your-pdf-link}{PDF Report}
+%     \vspace{0.05cm}
+%     \item Event-Based Feature Tracking Using the Iterative Closest Point Algorithm - Joseph Adeola, Preeti Verma, and Moses Ebere - \href{https://github.com/adeola-jo/event-feature-tracking}{GitHub Repository} | \href{your-pdf-link}{PDF Report}
+
+%     \item Controlling a Swarm of Robots in a Simulator using Reynolds’ Rules - Joseph Adeola, Khawaja Ghulam Alamdar, Moses Chuka Ebere, Nada Elsayed Abbas - \href{https://github.com/adeola-jo/swarm-control}{GitHub Repository} | \href{your-pdf-link}{PDF Report}
+
+%     \item Multi-Modal Human-Swarm Interaction Using Vision, Speech \& Multi-Agent LLMs - Joseph Adeola, Moses Ebere - \href{https://github.com/adeola-jo/human-swarm-interaction}{GitHub Repository} | \href{your-pdf-link}{PDF Report}
+
+%     \item Pose-Based EKF SLAM using ICP Scan-Matching on a Kobuki Turtlebot - Joseph Adeola, Moses Ebere, and Preeti Verma - \href{https://github.com/adeola-jo/ekf-slam}{GitHub Repository} | \href{your-pdf-link}{PDF Report}
+
+%     \item Robust Coordination and Control of Multi-Robot Systems Using Consensus Protocols - Joseph Adeola, Khawaja Ghulam Alamdar, Moses Ebere, Nada Elsayed Abbas - \href{https://github.com/adeola-jo/multi-robot-control}{GitHub Repository} | \href{your-pdf-link}{PDF Report}
+
+%     \item A Kinematic Control System for a Mobile Manipulator, based on the Task-Priority Redundancy Resolution Algorithm - Moses Ebere, Joseph Adeola, and Preeti Verma - \href{https://github.com/adeola-jo/mobile-manipulator}{GitHub Repository} | \href{your-pdf-link}{PDF Report}
+
+%     \item Pigmented Skin Lesion Detection in Clinical Images Using Deep Learning Methodologies - Joseph Adeola, Moses Ebere - \href{https://github.com/adeola-jo/skin-lesion-detection}{GitHub Repository} | \href{your-pdf-link}{PDF Report}
+% \end{itemize}
+
+
+% \section*{Technical Reports}
+% \vspace{-2mm}
+% \hrule
+% \vspace{2mm}
+
+% \textbf{Enhancing Autonomous Exploration and Navigation in Unknown Environments: A Software Architecture for Turtlebot Robot} \\
+% \textit{Joseph Adeola, Preeti Verma, and Moses Ebere} \\
+% Available at: \href{https://github.com/adeola-jo/turtlebot-exploration}{GitHub Repository} | \href{your-pdf-link}{PDF Report} \\
+
+% \textbf{Event-Based Feature Tracking Using the Iterative Closest Point Algorithm} \\
+% \textit{Joseph Adeola, Preeti Verma, and Moses Ebere} \\
+% Available at: \href{https://github.com/adeola-jo/event-feature-tracking}{GitHub Repository} | \href{your-pdf-link}{PDF Report} \\
+
+% \textbf{Controlling a Swarm of Robots in a Simulator using Reynolds’ Rules} \\
+% \textit{Joseph Adeola, Khawaja Ghulam Alamdar, Moses Chuka Ebere, Nada Elsayed Abbas} \\
+% Available at: \href{https://github.com/adeola-jo/swarm-control}{GitHub Repository} | \href{your-pdf-link}{PDF Report} \\
+
+% \textbf{Multi-Modal Human-Swarm Interaction Using Vision, Speech \& Multi-Agent LLMs} \\
+% \textit{Joseph Adeola, Moses Ebere} \\
+% Available at: \href{https://github.com/adeola-jo/human-swarm-interaction}{GitHub Repository} | \href{your-pdf-link}{PDF Report} \\
+
+% \textbf{Pose-Based EKF SLAM using ICP Scan-Matching on a Kobuki Turtlebot} \\
+% \textit{Joseph Adeola, Moses Ebere, and Preeti Verma} \\
+% Available at: \href{https://github.com/adeola-jo/ekf-slam}{GitHub Repository} | \href{your-pdf-link}{PDF Report} \\
+
+% \textbf{Robust Coordination and Control of Multi-Robot Systems Using Consensus Protocols} \\
+% \textit{Joseph Adeola, Khawaja Ghulam Alamdar, Moses Ebere, Nada Elsayed Abbas} \\
+% Available at: \href{https://github.com/adeola-jo/multi-robot-control}{GitHub Repository} | \href{your-pdf-link}{PDF Report} \\
+
+% \textbf{A Kinematic Control System for a Mobile Manipulator, based on the Task-Priority Redundancy Resolution Algorithm} \\
+% \textit{Moses Ebere, Joseph Adeola, and Preeti Verma} \\
+% Available at: \href{https://github.com/adeola-jo/mobile-manipulator}{GitHub Repository} | \href{your-pdf-link}{PDF Report} \\
+
+% \textbf{Pigmented Skin Lesion Detection in Clinical Images Using Deep Learning Methodologies} \\
+% \textit{Joseph Adeola, Moses Ebere} \\
+% Available at: \href{https://github.com/adeola-jo/skin-lesion-detection}{GitHub Repository} | \href{your-pdf-link}{PDF Report} \\
+
+% \section*{Publications}
+% \vspace{-2mm} % Space after the rule before the next line of text
+% \hrule
+% \vspace{2mm} %i
+% \begin{itemize}[
+%     leftmargin=*,
+%     itemsep=1mm, % Space between items
+%     parsep=0pt,   % Space between paragraphs in the same item
+%     topsep=2mm,   % Space before the whole list
+%     bottomsep=2mm % Space after the whole list
+%     ]
+%     \item Bello, S.A., Yusuf, K.A., Ige, S.O., \textbf{Joseph, O.A.}, et al. (2022). DINData: A Windows software to reformat and clean digisonde numeric dataset. \textit{ESS Open Archive}.
+% \end{itemize}
+% % \vspace{-2mm} % Space after the rule before the next line of text
+% \textbf{Manuscripts Under Review}
+% \begin{itemize}[
+%     leftmargin=*,
+%     itemsep=1mm,
+%     parsep=0pt,
+%     topsep=2mm,
+%     bottomsep=2mm
+%     ]
+%     \item \textit{The iToBoS dataset: skin region images extracted from 3D total body photographs for lesion detection} - Anup Saha, \textbf{Joseph Adeola}, Nuria Ferrera, Adam Mothershaw, Gisele Rezze, S\'eraphin Gaborit, Brian D’Alessandro, James Hudson, Gyula Szab\'o, Balazs Pataki, Hayat Rajani, Sana Nazari, Hassan Hayat, Clare Primiero, H. Peter Soyer, Josep Malvehy, and Rafael Garcia. \textit{(Submitted)}
+    
+%     \item \textit{Metadata-Guided Skin Lesion Detection with Multi-Task Learning.} \textbf{Joseph Adeola}, Anup Saha and Rafael Garcia.  *Submitted to the Journal of Medical Imaging, Jan 2025*
+    
+%     % \item Your other papers under review can be included here
+% \end{itemize}
+
+% % \noindent 
+
+
+% \section*{Conferences \& Workshops}
+% \vspace{-2mm} % Space after the rule before the next line of text
+% \hrule
+% \vspace{2mm} %
+% \begin{itemize}[leftmargin=*]
+%     \item Indoor Positioning Systems Workshop \hfill \textit{October, 2023} \\
+%     \textit{Organized by EU aeroSTREAM Project, Karlovac, Zagreb}. 
+%     \item 5th Conference on Mathematical Science and Applications \hfill \textit{November, 2021}\\
+%     {\small \textit{Organized by The Saudi Association for Mathematical Science (SAMS) } in \\ \textit{collaboration with King Abdullah University of Science and Technology (KAUST)}}
+%     \item International Model United Nations (IMUN) Conference 47.0, {\small \textit{Virtual Edition}}. \hfill \textit{March, 2021}
+% \end{itemize}
+
+% \section*{Leadership Experience}
+% \vspace{-2mm} % Space after the rule before the next line of text
+% \hrule
+% \vspace{2mm} %
+% \begin{itemize}[leftmargin=*]
+%     \item \textbf{Center for Distance Learning Brand Ambassador}, \textit{University of Ilorin, Nigeria.}\hfill \textit{Jan 2022}
+%     \begin{itemize}
+%         \item Promoted the center’s programs and initiatives to prospective students, enhancing its visibility and appeal.
+%     \end{itemize}
+%         \item \textbf{Platoon Leader}, \textit{NYSC Orientation Camp, Kebbi State, Nigeria.} \hfill \textit{Nov 2021 - Dec 2021}
+%     \begin{itemize}
+%         \item Led a group of 125 corp members, coordinated activities, and ensured effective communication and cooperation within the platoon.
+%     \end{itemize}
+%     \item \textbf{Program Director}, \textit{STEM Innovation Hackathon, University of Ilorin, Nigeria.} \hfill \textit{Jan 2021}
+%     \begin{itemize}
+%         \item Supervised registration of 5,000 participants and led an innovation team to convert disposed tires into usable chairs creatively.
+%     \end{itemize}
+%     \item \textbf{Academic Director}, \textit{Deeper Life Campus Fellowship, University of Ilorin, Nigeria,} \hfill \textit{Aug 2019 - May 2021}
+%     \begin{itemize}
+%         \item Organized tutorials, taught math classes, and kept records of over 100 church members’ academic performance.
+%     \end{itemize}
+%     \item \textbf{Team Lead}, \textit{Faculty of Physical Sciences Quiz and Debate Club, Unilorin} \hfill \textit{Jun 2019 - Jun 2021}
+%     \begin{itemize}
+%         \item Led and mentored the debate team, conducted interviews, and organized competitions.
+%     \end{itemize}
+
+
+% \end{itemize}
+
+% \section*{Volunteering Experience}
+% \vspace{-2mm} % Space after the rule before the next line of text
+% \hrule
+% \vspace{2mm} %
+% \begin{itemize}[leftmargin=*]
+%     \item \textbf{Student Mentor},     \textit{Kingdom Scholars Community, USA.} \hfill \textit{May 2024 - Present}
+%     \begin{itemize}
+%         \item Guide students through international scholarship applications and provide support during the application process.
+%     \end{itemize}
+%     \item \textbf{Scholarship Award Committee Member},    \textit{Unilorin Intl. Scholarship Forum.}  \hfill \textit{May 2024 - Present}
+%     \begin{itemize}
+%         \item Review applications for financial support and mentor students in their scholarship pursuits.
+%     \end{itemize}
+%     \item \textbf{Facilitator, Digital Skills Acquisition Program},     \textit{Department of Mathematics, Unilorin.}  \hfill \textit{Nov 2021}\\ 
+%     \vspace{-1.5em}
+%     \begin{itemize}
+%         \item Volunteered to teach Introduction to Python for data science in a five-day skill acquisition program organized for 48 undergraduate students.
+%     \end{itemize}
+%     \item \textbf{Climate Change Advocate},     \textit{Save Sahara Network, Nigeria.} \hfill \textit{Mar 2021 - Present} \\
+%     \vspace{-1.5em}
+%     \begin{itemize}
+%         \item Volunteered in a campaign for environmental preservation that opposes climate-disrupting activities and encourages tree planting.
+%     \end{itemize}
+%     \item \textbf{Student-Peer Mentor}, \textit{Dareworld Students' Association} \hfill \textit{Jan 2020 - Aug 2021} \\
+%     \vspace{-1.5em}
+%     \begin{itemize}
+%         \item Mentored two freshmen yearly, providing guidance, counseling, and academic support.
+%     \end{itemize}
+% \end{itemize}
+
+% \section*{Honors \& Awards}
+% \vspace{-2mm} % Space after the rule before the next line of text
+% \hrule
+% \vspace{2mm} %
+% \begin{itemize}[leftmargin=*]
+%     \item ITExperience Google Project Management Career Scholarship Award, 2023
+%     \item Erasmus Mundus Joint Masters Degree Scholarship Award, 2022
+%     \item Education USA (Nigeria) Scholarship Award, 2022.
+%     \item Valedictorian, University of Ilorin, 36th Convocation (1st out of 9,338 graduates), 2021
+%     \item Best Graduating Student, Faculty of Physical Sciences, University of Ilorin, 2021
+%     \item Best Graduating Student, Department of Mathematics, University of Ilorin, 2021
+%    \item University of Ilorin International Scholarship Forum Award, 2021
+%    \item Scholar of the Year Award, National Association of Mathematics Students, University of Ilorin Chapter, 2021
+%     \item Bronze Medalist, International Youth Mathematics Challenge, 2019
+%     \item MTN Foundation Scholarship Award, MTN Nigeria, 2019
+%     \item University Senate Scholarship Award, University of Ilorin, 2017-2020
+% \end{itemize}
+
+% \section*{Professional Memberships}
+% \vspace{-2mm} % Space after the rule before the next line of text
+% \hrule
+% \vspace{2mm} %
+% \begin{itemize}[leftmargin=*]
+%     \item Member, Data Science Association \hfill \textit{Nov 2021 - Present}
+%     \item Member, Nigerian Mathematical Society \hfill \textit{May 2021 - Present}
+%     \item Member, Data Science Nigeria \hfill \textit{July 2020 - Present}
+% \end{itemize}
+
+\section*{Languages}
+\vspace{-2mm} % Space after the rule before the next line of text
+\hrule
+\vspace{2mm} %
+\noindent English - (Highly Proficient)
+
+% \end{document}
