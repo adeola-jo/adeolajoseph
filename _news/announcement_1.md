@@ -1,8 +1,10 @@
+
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+title: New Position at ViCOROB Institute
+date: 2024-10-01
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Started a new position as Senior Technician at the ViCOROB Institute, working on the European Commission-funded Horizon 2020 project for early melanoma detection.
