@@ -1,4 +1,4 @@
-modules = ["web", "nodejs-20"]
+modules = ["bun-1.1", "nodejs-20", "web"]
 run = "node index.js"
 
 [nix]
