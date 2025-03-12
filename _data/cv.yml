@@ -2,96 +2,177 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Joseph Adeola
+    - name: Location
+      value: Girona, Spain
+    - name: Email
+      value: adeola.jo@outlook.com
     - name: Languages
-      value: English, German
+      value: English (Highly Proficient)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Erasmus Mundus Masters, Intelligent Robotic Systems
+      institution: University of Zagreb, Croatia & University of Girona, Spain
+      year: 2022-2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Grade - Excellent (9.05/10)
+        - Coursework included Autonomous Systems, Human-Robot Interaction, Advanced Machine Learning, Multiview Geometry, Sensors, Perception & Actuation in Robotics, Aerial Robotics
+    - title: Bachelor of Science in Mathematics
+      institution: University of Ilorin, Nigeria
+      year: 2016-2021
       description:
-        - Description 1.
-        - Description 2.
+        - First-Class Honors (4.92/5.0)
+        - Rank - 1st out of 9,388 graduates
+        - University Valedictorian
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Senior Technician
+      institution: ViCOROB Institute, Girona, Spain
+      year: 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Contributing to the European Commission-funded Horizon 2020 project "Intelligent Total Body Scanner for Early Detection of Melanoma (iToBoS)"
+        - Developing distributed multi-robot control software components for a 4-robot system performing automated patient body mapping
+        - Designing and implementing computer vision and machine learning algorithms for high-precision lesion detection
+        - Creating data fusion algorithms to merge multi-view imagery into comprehensive 3D body maps
+        - Developing and supporting the integration of ML models and robotic control systems with existing medical infrastructure
+    
+    - title: AI Research Intern
+      institution: ViCOROB Institute, Girona, Spain
+      year: 2023 - 2024
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Researched and implemented deep learning models for skin lesion detection, improving melanoma detection capabilities by 24%
+        - Managed large-scale databases and developed software for automating data cleaning processes
+        - Developed a data preprocessing pipeline incorporating innovative hair removal techniques
+        - Implemented AI explainability pipelines, improving transparency in model application
+        - Collaborated with cross-functional teams to integrate models into existing medical imaging systems
+    
+    - title: Graduate Research Assistant
+      institution: Department of Physics, University of Ilorin, Nigeria
+      year: 2021
       description:
+        - Collected, cleaned, and managed large-scale datasets for multiple research projects, ensuring 99.9% data accuracy
+        - Developed Python algorithms and Windows software to automate data cleaning processes
+        - Analyzed complex datasets to make accurate predictions and contribute to research findings
+        - Assisted in the development and implementation of experimental protocols
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
+- title: Skills
+  type: nested_list
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Programming
+      items: 
+        - Python
+        - C++
+        - JavaScript
+        - R
+        - C
+        - Rust
+        - MATLAB
+    - title: Libraries & Frameworks
+      items:
+        - PyTorch
+        - TensorFlow
+        - Keras
+        - ROS
+        - OpenCV
+        - Pandas
+        - NumPy
+        - Scikit-Learn
+    - title: Robotics & AI
+      items:
+        - SLAM
+        - Sensor Fusion
+        - Motion Planning
+        - Control Systems
+        - Deep Learning
+        - Reinforcement Learning
+    - title: Tools & Technologies
+      items:
+        - Docker
+        - Git
+        - Linux
+        - Gazebo
+        - OMPL
+        - PDDL
+        - LaTeX
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: ITExperience Google Project Management Career Scholarship Award
+      year: 2023
+      
+    - title: Erasmus Mundus Joint Masters Degree Scholarship Award
+      year: 2022
+      
+    - title: Education USA (Nigeria) Scholarship Award
+      year: 2022
+      
+    - title: Valedictorian, University of Ilorin (1st out of 9,338 graduates)
+      year: 2021
+      
+    - title: Best Graduating Student, Faculty of Physical Sciences, University of Ilorin
+      year: 2021
+      
+    - title: Best Graduating Student, Department of Mathematics, University of Ilorin
+      year: 2021
+      
+    - title: Bronze Medalist, International Youth Mathematics Challenge
+      year: 2019
+      
+    - title: MTN Foundation Scholarship Award
+      year: 2019
+      
+    - title: University Senate Scholarship Award, University of Ilorin
+      year: 2017-2020
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Publications
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: "DINData: A Windows software to reformat and clean digisonde numeric dataset"
+      authors: S.A. Bello, K.A. Yusuf, S.O. Ige, O.A. Joseph, et al.
+      journal: ESS Open Archive
+      year: 2022
+    - title: "The iToBoS dataset: skin region images extracted from 3D total body photographs for lesion detection"
+      authors: Anup Saha, Joseph Adeola, et al.
+      journal: Submitted to Scientific Data (Nature Portfolio)
+      year: 2025
+      note: "Contribution: Led the development of data preprocessing pipelines and annotation tools, and contributed to dataset curation and quality control."
+
+- title: Technical Reports
+  type: list
+  contents:
+    - title: "Enhancing Autonomous Exploration and Navigation in Unknown Environments: A Software Architecture for Turtlebot Robot"
+      authors: Joseph Adeola, Preeti Verma, and Moses Ebere
+      year: 2023
+      url: https://drive.google.com/file/d/1y8D-TpQKO4xGhD4gJFwAJubF5quyF_bw/view?usp=sharing
+      
+    - title: "Event-Based Feature Tracking Using the Iterative Closest Point Algorithm"
+      authors: Joseph Adeola, Preeti Verma, and Moses Ebere
+      year: 2023
+      url: https://drive.google.com/file/d/1g3ZJqr58qeld1M2-lfi_G5FW6jO7fHH-/view?usp=sharing
+      
+    - title: "Controlling a Swarm of Robots in a Simulator using Reynolds' Rules"
+      authors: Joseph Adeola, Khawaja Ghulam Alamdar, Moses Chuka Ebere, Nada Elsayed Abbas
+      year: 2023
+      url: https://drive.google.com/file/d/1VHMyS0NrXDH7SriUC55o5dcf_lzah3jH/view?usp=sharing
+      
+    - title: "Multi-Modal Human-Swarm Interaction Using Vision, Speech & Multi-Agent LLMs"
+      authors: Joseph Adeola, Moses Ebere
+      year: 2024
+      url: https://drive.google.com/file/d/1HtOOJPLepVkDMNAfAbHh17W7lygECQq5/view?usp=sharing
+      
+    - title: "Pose-Based EKF SLAM using ICP Scan-Matching on a Kobuki Turtlebot"
+      authors: Joseph Adeola, Moses Ebere, and Preeti Verma
+      year: 2023
+      url: https://drive.google.com/file/d/1yrFgtcCPEPN0LrKiixv_JSLsxhWJ0KGg/view?usp=sharing
+
+- title: Professional Memberships
+  type: list
+  contents:
+    - Member, Data Science Association (2021-Present)
+    - Member, Nigerian Mathematical Society (2021-Present)
+    - Member, Data Science Nigeria (2020-Present)

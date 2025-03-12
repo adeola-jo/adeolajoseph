@@ -1,14 +1,42 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - adeola-jo
+  # - AdeolaJoseph
+  # - MosesEbere
+  # - KhAlamdar11
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - adeola-jo/iToBoS-Annotation-Tool
+  - adeola-jo/Pigmented-Skin-Lesion-Detection-in-Clinical-Images-Using-Deep-Learning-Methodologies
+  - adeola-jo/Pose-Based-EKF-SLAM-ICP
+  # - adeola-jo/human-swarm-interaction
+  - AdeolaJoseph/Stereo-Visual-Odometry
+  - adeola-jo/PrivacyFederatedLearning
+  - adeola-jo/Robot-Localization-Particle-Filter
+  - adeola-jo/Line-Feature-EKF-Map-Localization
+  - adeola-jo/Metric-Embedding-Similarity-Learning
+  - adeola-jo/Reinforcement-Learning
+  - adeola-jo/SCARA-TS60-Robot-Design-Simulation
+  - adeola-jo/CNN-Image-Classification
+  - adeola-jo/AI-Planning
+  # - adeola-jo/Motion-Planners
+  - KhAlamdar11/ReynoldsSwarmSim
+  - MosesEbere/multi-robot-consensus
+  - MosesEbere/gazebo_multi_robot_spawn
+  # - MosesEbere/hands_on_intervention
+
+# github_users:
+#   - torvalds
+#   - alshedivat
+
+# repo_description_lines_max: 2
+
+# github_repos:
+#   - alshedivat/al-folio
+#   - jekyll/jekyll
+#   - twbs/bootstrap
+#   - jquery/jquery
+#   - FortAwesome/Font-Awesome
+#   - mathjax/MathJax
+#   - jpswalsh/academicons

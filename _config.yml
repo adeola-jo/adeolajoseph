@@ -4,10 +4,10 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Joseph
-middle_name: 
+middle_name: O.
 last_name: Adeola
 contact_note: >
-  Feel free to reach out via email or connect with me on LinkedIn.
+  You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -87,8 +87,10 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Joseph's Space # blog_name will be displayed in your blog page
+# blog_description: Welcome to my blog! Here I share honest thoughts on robotics, research struggles, and occasional breakthroughs. No polish, just real experiences.
+# blog_description: Welcome to my digital journal where I share my thoughts, reflections, and ideas. A place for exploration and conversation.
+blog_description: This is my little corner of the internet where I dump my thoughts, struggle through research problems, and occasionally have something interesting to say. No filters, just honest reflections on my experiences building robots, coding through the night, and figuring out this whole academic life thing. Sometimes messy, sometimes insightful, always real.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -262,10 +264,9 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
-
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Adeola]
+  first_name: [Joseph, A.]
 
   style: apa
   locale: en
@@ -273,6 +274,7 @@ scholar:
   source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
+  
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
@@ -287,6 +289,37 @@ scholar:
   query: "@*"
   group_by: year
   group_order: descending
+  
+  # These additional settings help with technical reports
+  type_order: [article, unpublished, techreport]
+  type_names: 
+    article: Journal Publications
+    unpublished: Manuscripts Under Review
+    techreport: Technical Reports
+# scholar:
+#   last_name: [Adeola]
+#   first_name: [Joseph, A.]
+
+#   style: apa
+#   locale: en
+
+#   source: /_bibliography/
+#   bibliography: papers.bib
+#   bibliography_template: bib
+#   # Note: if you have latex math in your bibtex, the latex filter
+#   # preprocessing may conflict with MathJAX if the latter is enabled.
+#   # See https://github.com/alshedivat/al-folio/issues/357.
+#   bibtex_filters: [latex, smallcaps, superscript]
+
+#   replace_strings: true
+#   join_strings: true
+
+#   details_dir: bibliography
+#   details_link: Details
+
+#   query: "@*"
+#   group_by: year
+#   group_order: descending
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid

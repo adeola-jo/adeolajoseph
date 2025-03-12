@@ -1,9 +1,39 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+ESS:
+  name: ESS Open Archive
+  url: https://www.essopenarchive.org/
+  color: "#A31B34"
 
-"PhysRev":
-  url: https://journals.aps.org/
+ScientificData:
+  name: Scientific Data (Nature Portfolio)
+  url: https://www.nature.com/sdata/
+  color: "#4CAF50"
 
-"Vision":
-  color: "#009f36"
+iToBoS:
+  name: Intelligent Total Body Scanner for Early Detection of Melanoma
+  url: https://itobos.eu/
+  color: "#2196F3"
+
+SAMS:
+  name: Saudi Association for Mathematical Science
+  url: https://sams.org.sa/
+  color: "#673AB7"
+
+KAUST:
+  name: King Abdullah University of Science and Technology
+  url: https://www.kaust.edu.sa/
+  color: "#009688"
+
+IMUN:
+  name: International Model United Nations
+  url: https://imun.org/
+  color: "#FF5722"
+  
+# "AJP":
+#   url: https://aapt.scitation.org/journal/ajp
+#   color: "#00369f"
+
+# "PhysRev":
+#   url: https://journals.aps.org/
+
+# "Vision":
+#   color: "#009f36"
